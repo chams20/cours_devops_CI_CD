@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Récupération du code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Vérification syntaxe HTML
         uses: Cyb3r-Jak3/html5validator-action@v7.2.0
